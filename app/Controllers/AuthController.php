@@ -58,4 +58,53 @@ class AuthController extends Controller
         session()->destroy();
         return redirect()->to('/login');
     }
+
+    public function edit()
+    {
+        // Ambil data pengguna yang sedang login
+        $userModel = new UserModel();
+        $user = $userModel->where('username', session()->get('username'))->first();
+
+        return view('auth/edit', ['user' => $user]);
+    }
+
+
+    public function processEdit()
+    {
+        $validation = \Config\Services::validation();
+        $validation->setRules([
+            'username' => 'required|is_unique[users.username,username,{id}]',
+            'password' => 'permit_empty|min_length[6]',
+            'confirm_password' => 'permit_empty|matches[password]',
+        ], [
+            'username.is_unique' => 'Username sudah digunakan.',
+            'confirm_password.matches' => 'Password tidak cocok.'
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
+        }
+
+        // Ambil user berdasarkan session
+        $userModel = new UserModel();
+        $user = $userModel->where('username', session()->get('username'))->first();
+
+        $data = [
+            'username' => $this->request->getPost('username'),
+        ];
+
+        // Jika password diisi, update password
+        if ($this->request->getPost('password')) {
+            $data['password'] = password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
+        }
+
+        // Update data
+        $userModel->update($user['id'], $data);
+
+        // Update session jika username diubah
+        session()->set('username', $this->request->getPost('username'));
+
+        // Menambahkan pesan sukses ke flashdata
+        return redirect()->to('/auth/edit')->with('message', 'Profile berhasil diperbarui!');
+    }
 }

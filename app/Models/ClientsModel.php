@@ -1,4 +1,4 @@
-<?
+<?php
 
 namespace App\Models;
 
@@ -8,6 +8,6 @@ class ClientsModel extends Model
 {
     protected $table = 'clients';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['image', 'created_at', 'updated_at'];
+    protected $allowedFields = ['image', 'created_at', 'deskripsi', 'updated_at'];
     protected $useTimestamps = true;
 }
