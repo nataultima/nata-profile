@@ -3,15 +3,20 @@
     <div class="container footer-top">
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
-                <a href="index.html" class="d-flex align-items-center">
+                <a href="/" class="d-flex align-items-center">
                     <span class="sitename">Nata Ultima Enggal</span>
                 </a>
                 <div class="footer-contact pt-3">
-                    <p>Jl. Laksda Adisucipto No.37, Bantul 55711 Bantul Yogyakarta</p>
-                    <p>Yogyakarta, Bantul 55711</p>
-                    <p class="mt-3"><strong>Phone:</strong> <span>+62 8888888</span></p>
-                    <p><strong>Email:</strong> <span>nata@example.com</span></p>
+                    <!-- Menampilkan Address -->
+                    <p><?= esc($setting['address'] ?? 'No address set') ?></p>
+
+                    <!-- Menampilkan Phone -->
+                    <p class="mt-3"><strong>Phone:</strong> <span><?= esc($setting['phone'] ?? 'No phone number set') ?></span></p>
+
+                    <!-- Menampilkan Email -->
+                    <p><strong>Email:</strong> <span><?= esc($setting['email'] ?? 'No email address set') ?></span></p>
                 </div>
+
             </div>
 
             <div class="col-lg-2 col-md-3 footer-links">
