@@ -27,18 +27,38 @@ class HomeController extends BaseController
 
     public function index(): string
     {
-        // Mengambil data setting pertama
         $setting = $this->settingModel->first();
 
+        // Ambil filter kategori dari query string
+        $category = strtolower($this->request->getGet('category') ?? 'all');
+        $page = (int)($this->request->getGet('page') ?? 1);
+        $perPage = 6;
+
+        // Query data portfolio berdasarkan kategori
+        if ($category === 'all') {
+            $portfolios = $this->portoModel->paginate($perPage, 'default', $page);
+            $total = $this->portoModel->countAll();
+        } else {
+            $portfolios = $this->portoModel
+                ->where('LOWER(category)', $category)
+                ->paginate($perPage, 'default', $page);
+            $total = $this->portoModel
+                ->where('LOWER(category)', $category)
+                ->countAllResults();
+        }
+
         $data = [
-            'portfolios' => $this->portoModel->findAll(),
+            'portfolios' => $portfolios,
+            'pager' => $this->portoModel->pager,
+            'category' => $category,
+            'perPage' => $perPage,
+            'total' => $total,
             'articles' => $this->articleModel->findAll(),
-            'clients'    => $this->clientsModel->findAll(),
+            'clients' => $this->clientsModel->findAll(),
             'certifieds' => $this->certifiedsModel->findAll(),
-            'setting'    => $setting // Kirim ke view
+            'setting' => $setting
         ];
 
-        // Mengirim data ke view 'frontend/home'
         return view('frontend/home', $data);
     }
 }

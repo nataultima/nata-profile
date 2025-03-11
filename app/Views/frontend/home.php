@@ -68,7 +68,8 @@
             <?php endforeach; ?>
         </div>
     </div>
-</section><!-- /Featured Services Section -->
+</section>
+<!-- /Featured Services Section -->
 
 <!-- Clients Section -->
 <section id="clients" class="clients section light-background">
@@ -120,7 +121,8 @@
             </div>
         </div>
     </div>
-</section><!-- /Clients Section -->
+</section>
+<!-- /Clients Section -->
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="portfolio section">
@@ -140,7 +142,8 @@
 
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
                 <?php foreach ($portfolios as $portfolio): ?>
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-<?= esc($portfolio['category']) ?>">
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-<?= esc(strtolower($portfolio['category'])) ?>">
+
                         <div class="ratio ratio-4x3">
                             <img src="<?= base_url('uploads/portfolios/' . $portfolio['image']) ?>"
                                 class="img-fluid"
@@ -189,7 +192,9 @@
             </div><!-- End Portfolio Container -->
         </div>
     </div>
-</section><!-- /Portfolio Section -->
+</section>
+<!-- /Portfolio Section -->
+
 <!-- Artikel -->
 <section id="articles" class="articles section">
     <div class="container section-title text-center" data-aos="fade-up">
@@ -221,6 +226,7 @@
     </div>
 </section>
 <!-- end artikel section -->
+
 <!-- Certified Section -->
 <section id="certified" class="certified section light-background">
     <div class="section-title text-center" data-aos="fade-up">
@@ -244,7 +250,8 @@
             </div>
         <?php endif; ?>
     </div>
-</section><!-- End Certified Section -->
+</section>
+<!-- End Certified Section -->
 
 <!-- Contact Section -->
 <section id="contact" class="contact section">
