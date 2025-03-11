@@ -1,0 +1,320 @@
+CRITICAL - 2025-03-05 02:06:03 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap5" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap5')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('portfolios', 'bootstrap5')
+ 3 APPPATH\Views\frontend\home.php(196): CodeIgniter\Pager\Pager->links('portfolios', 'bootstrap5')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(44): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 02:07:15 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap5" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap5')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('portfolios', 'bootstrap5')
+ 3 APPPATH\Views\frontend\home.php(196): CodeIgniter\Pager\Pager->links('portfolios', 'bootstrap5')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(44): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 02:07:16 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap5" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap5')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('portfolios', 'bootstrap5')
+ 3 APPPATH\Views\frontend\home.php(196): CodeIgniter\Pager\Pager->links('portfolios', 'bootstrap5')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(44): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 02:07:17 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap5" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap5')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('portfolios', 'bootstrap5')
+ 3 APPPATH\Views\frontend\home.php(196): CodeIgniter\Pager\Pager->links('portfolios', 'bootstrap5')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(44): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 02:07:56 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap5" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap5')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('portfolios', 'bootstrap5')
+ 3 APPPATH\Views\frontend\home.php(196): CodeIgniter\Pager\Pager->links('portfolios', 'bootstrap5')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(44): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 02:07:57 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap5" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap5')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('portfolios', 'bootstrap5')
+ 3 APPPATH\Views\frontend\home.php(196): CodeIgniter\Pager\Pager->links('portfolios', 'bootstrap5')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(44): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 02:08:02 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap5" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap5')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('portfolios', 'bootstrap5')
+ 3 APPPATH\Views\frontend\home.php(196): CodeIgniter\Pager\Pager->links('portfolios', 'bootstrap5')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(44): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 02:09:43 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Floor Standing Panel adalah panel listrik yang dipasang atau ditempatkan di lantai, bukan dipasang di dinding (wall-mounted). Panel ini biasanya berbentuk kotak atau lemari besar yang berdiri sendiri (freestanding) dan berfungsi sebagai pusat distribusi daya listrik ke berbagai peralatan atau sistem.Fungsi Utama:⚡ Mengatur distribusi listrik⚡ Melindungi sirkuit dari gangguan (short circuit atau overload)⚡ Sebagai pusat kontrol daya listrik di suatu area, gedung, atau pabrik"
+[Method: GET, Route: Floor%20Standing%20Panel%20adalah%20panel%20listrik%20yang%20dipasang%20atau%20ditempatkan%20di%20lantai,%20bukan%20dipasang%20di%20dinding%20%28wall-mounted%29.%20Panel%20ini%20biasanya%20berbentuk%20kotak%20atau%20lemari%20besar%20yang%20berdiri%20sendiri%20%28freestanding%29%20dan%20berfungsi%20sebagai%20pusat%20distribusi%20daya%20listrik%20ke%20berbagai%20peralatan%20atau%20sistem.Fungsi%20Utama:%E2%9A%A1%20Mengatur%20distribusi%20listrik%E2%9A%A1%20Melindungi%20sirkuit%20dari%20gangguan%20%28short%20circuit%20atau%20overload%29%E2%9A%A1%20Sebagai%20pusat%20kontrol%20daya%20listrik%20di%20suatu%20area,%20gedung,%20atau%20pabrik]
+in SYSTEMPATH\Router\Router.php on line 739.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('Floor Standing Panel adalah panel listrik yang dipasang atau ditempatkan di lantai, bukan dipasang di dinding (wall-mounted). Panel ini biasanya berbentuk kotak atau lemari besar yang berdiri sendiri (freestanding) dan berfungsi sebagai pusat distribusi daya listrik ke berbagai peralatan atau sistem.Fungsi Utama:⚡ Mengatur distribusi listrik⚡ Melindungi sirkuit dari gangguan (short circuit atau overload)⚡ Sebagai pusat kontrol daya listrik di suatu area, gedung, atau pabrik')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('Floor Standing Panel adalah panel listrik yang dipasang atau ditempatkan di lantai, bukan dipasang di dinding (wall-mounted). Panel ini biasanya berbentuk kotak atau lemari besar yang berdiri sendiri (freestanding) dan berfungsi sebagai pusat distribusi daya listrik ke berbagai peralatan atau sistem.Fungsi Utama:⚡ Mengatur distribusi listrik⚡ Melindungi sirkuit dari gangguan (short circuit atau overload)⚡ Sebagai pusat kontrol daya listrik di suatu area, gedung, atau pabrik')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+DEBUG - 2025-03-05 02:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-05 03:39:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nataprofile', 3306, '', 0)
+#1 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\nata-profile\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\nata-profile\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\web\nata-profile\app\Controllers\HomeController.php(30): CodeIgniter\BaseModel->first()
+#7 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#8 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\web\nata-profile\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\web\nata-profile\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\web\nata-profile\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\web\nata-profile\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\web\\nata-pro...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\web\nata-profile\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\web\nata-profile\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 D:\web\nata-profile\app\Controllers\HomeController.php(30): CodeIgniter\BaseModel->first()
+#6 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#7 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#8 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\nata-profile\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\web\nata-profile\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\web\nata-profile\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\web\nata-profile\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\web\\nata-pro...')
+#13 {main}
+CRITICAL - 2025-03-05 03:39:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\HomeController.php(30): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 03:39:29 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+ 2 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+ 3 APPPATH\Views\frontend\home.php(197): CodeIgniter\Pager\Pager->makeLinks(1, 6, 13, 'bootstrap')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(62): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 03:39:30 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+ 2 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+ 3 APPPATH\Views\frontend\home.php(197): CodeIgniter\Pager\Pager->makeLinks(1, 6, 13, 'bootstrap')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(62): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 03:39:31 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+ 2 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+ 3 APPPATH\Views\frontend\home.php(197): CodeIgniter\Pager\Pager->makeLinks(1, 6, 13, 'bootstrap')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(62): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 03:41:24 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+ 2 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+ 3 APPPATH\Views\frontend\home.php(197): CodeIgniter\Pager\Pager->makeLinks(1, 6, 13, 'bootstrap')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(62): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+CRITICAL - 2025-03-05 03:41:25 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+ 2 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+ 3 APPPATH\Views\frontend\home.php(197): CodeIgniter\Pager\Pager->makeLinks(1, 6, 13, 'bootstrap')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\web\\nata-profile\\app\\Views\\frontend\\home.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/home', [], true)
+ 7 APPPATH\Controllers\HomeController.php(62): view('frontend/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
+ERROR - 2025-03-05 03:48:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nataprofile', 3306, '', 0)
+#1 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\nata-profile\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\nata-profile\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\web\nata-profile\app\Controllers\HomeController.php(30): CodeIgniter\BaseModel->first()
+#7 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#8 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\web\nata-profile\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\web\nata-profile\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\web\nata-profile\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\web\nata-profile\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\web\\nata-pro...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\web\nata-profile\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\web\nata-profile\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\web\nata-profile\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 D:\web\nata-profile\app\Controllers\HomeController.php(30): CodeIgniter\BaseModel->first()
+#6 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#7 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#8 D:\web\nata-profile\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\nata-profile\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\web\nata-profile\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\web\nata-profile\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\web\nata-profile\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\web\\nata-pro...')
+#13 {main}
+CRITICAL - 2025-03-05 03:48:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\HomeController.php(30): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\web\\nata-profile\\public\\index.php')
